@@ -4,20 +4,20 @@ Official installers and portable packages for the USBAnywhere ecosystem.
 
 ## Windows Client
 
-Version 3.0.1
+Version 3.1.0
 
-- [Windows x64 installer](https://github.com/oscarlosu-lab/USBAnywhere-Downloads/releases/download/client-v3.0.1/USBAnywhere_Setup_v3.0.1.exe)
-- [Windows x64 portable](https://github.com/oscarlosu-lab/USBAnywhere-Downloads/releases/download/client-v3.0.1/USBAnywhere-v3.0.1-x64.zip)
-- [Windows ARM64 portable](https://github.com/oscarlosu-lab/USBAnywhere-Downloads/releases/download/client-v3.0.1/USBAnywhere-v3.0.1-arm64.zip)
-- [SHA-256 checksums](https://github.com/oscarlosu-lab/USBAnywhere-Downloads/releases/download/client-v3.0.1/SHA256SUMS.txt)
+- [Windows x64 installer](https://github.com/oscarlosu-lab/USBAnywhere-Downloads/releases/download/client-v3.1.0/USBAnywhere_Setup_v3.1.0.exe)
+- [Windows x64 portable](https://github.com/oscarlosu-lab/USBAnywhere-Downloads/releases/download/client-v3.1.0/USBAnywhere-v3.1.0-x64.zip)
+- [Windows ARM64 portable](https://github.com/oscarlosu-lab/USBAnywhere-Downloads/releases/download/client-v3.1.0/USBAnywhere-v3.1.0-arm64.zip)
+- [SHA-256 checksums](https://github.com/oscarlosu-lab/USBAnywhere-Downloads/releases/download/client-v3.1.0/SHA256SUMS.txt)
 
 ## Windows Server
 
-Version 3.0.0
+Version 3.1.0
 
-- [Windows x64 installer](https://github.com/oscarlosu-lab/USBAnywhere-Downloads/releases/download/server-v3.0.0/USBAnywhere-Server_Setup_v3.0.0.exe)
-- [Windows x64 portable](https://github.com/oscarlosu-lab/USBAnywhere-Downloads/releases/download/server-v3.0.0/USBAnywhere-Server-v3.0.0-x64-Portable.zip)
-- [SHA-256 checksums](https://github.com/oscarlosu-lab/USBAnywhere-Downloads/releases/download/server-v3.0.0/SHA256SUMS.txt)
+- [Windows x64 installer](https://github.com/oscarlosu-lab/USBAnywhere-Downloads/releases/download/server-v3.1.0/USBAnywhere-Server_Setup_v3.1.0.exe)
+- [Windows x64 portable](https://github.com/oscarlosu-lab/USBAnywhere-Downloads/releases/download/server-v3.1.0/USBAnywhere-Server-v3.1.0-x64-Portable.zip)
+- [SHA-256 checksums](https://github.com/oscarlosu-lab/USBAnywhere-Downloads/releases/download/server-v3.1.0/SHA256SUMS.txt)
 
 ## Android
 
