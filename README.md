@@ -1,5 +1,8 @@
 # USBAnywhere — Official Distribution & Mirror Archive
 
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-Support%20Project-FF5E5B?style=flat-square&logo=ko-fi&logoColor=white)](https://ko-fi.com/oscarlosu)
+[![License](https://img.shields.io/badge/License-GPLv3-blue.svg?style=flat-square)](https://www.gnu.org/licenses/gpl-3.0)
+
 This repository serves as the centralized backup mirror and distribution archive for releases across the USBAnywhere open-source ecosystem.
 
 Official releases, source code, issue trackers, and technical discussions are hosted in their respective primary repositories:
