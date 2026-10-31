@@ -8,7 +8,7 @@ This repository serves as the centralized backup mirror and distribution archive
 Official releases, source code, issue trackers, and technical discussions are hosted in their respective primary repositories:
 
 - **Windows Client**: [oscarlosu-lab/USBAnywhere](https://github.com/oscarlosu-lab/USBAnywhere)
-- **Windows Server**: [oscarlosu-lab/USBAnywhere-Server](https://github.com/oscarlosu-lab/USBAnywhere-Server)
+- **Windows & macOS Server**: [oscarlosu-lab/USBAnywhere-Server](https://github.com/oscarlosu-lab/USBAnywhere-Server)
 - **Android & Android TV**: [oscarlosu-lab/USBAnywhere-Android](https://github.com/oscarlosu-lab/USBAnywhere-Android)
 - **Web Portal & Documentation**: [oscarlosu-lab.github.io/USBAnywhere](https://oscarlosu-lab.github.io/USBAnywhere/)
 - **Community Forum**: [r/UsbAnywhere](https://www.reddit.com/r/UsbAnywhere/)
@@ -44,13 +44,27 @@ Official releases, source code, issue trackers, and technical discussions are ho
 
 ### 3. USBAnywhere Android & Android TV
 
-**Version 1.0.1** — [Primary Release Page](https://github.com/oscarlosu-lab/USBAnywhere-Android/releases/tag/v1.0.1) | [Mirror Release](https://github.com/oscarlosu-lab/USBAnywhere-Downloads/releases/tag/android-v1.0.1)
+**Version 1.0.2** — [Primary Release Page](https://github.com/oscarlosu-lab/USBAnywhere-Android/releases/tag/v1.0.2) | [Direct Sideload APK](https://github.com/oscarlosu-lab/USBAnywhere-Downloads/raw/main/USBAnywhere-Android-v1.0.2.apk)
 
 | Package | Platform | Format | Download Link |
 |---|---|---|---|
-| Standalone Sideload Package | Android 8.0+ / Android TV | APK (2.07 MB) | [USBAnywhere-Android-v1.0.1.apk](https://github.com/oscarlosu-lab/USBAnywhere-Downloads/releases/download/android-v1.0.1/USBAnywhere-Android-v1.0.1.apk) |
+| Standalone Sideload Package | Android 8.0+ / Android TV | APK (2.07 MB) | [USBAnywhere-Android-v1.0.2.apk](https://github.com/oscarlosu-lab/USBAnywhere-Downloads/raw/main/USBAnywhere-Android-v1.0.2.apk) |
+| Standalone Sideload Package (Legacy) | Android 8.0+ / Android TV | APK (2.07 MB) | [USBAnywhere-Android-v1.0.1.apk](https://github.com/oscarlosu-lab/USBAnywhere-Downloads/raw/main/USBAnywhere-Android-v1.0.1.apk) |
 | Google Play App Bundle | Android 8.0+ / Android TV | AAB (4.26 MB) | [USBAnywhere-Android-v1.0.1.aab](https://github.com/oscarlosu-lab/USBAnywhere-Downloads/releases/download/android-v1.0.1/USBAnywhere-Android-v1.0.1.aab) |
 | SHA-256 Checksums | All | TXT | [SHA256SUMS.txt](https://github.com/oscarlosu-lab/USBAnywhere-Downloads/releases/download/android-v1.0.1/SHA256SUMS.txt) |
+
+---
+
+### 4. USBAnywhere Server for macOS (Apple Silicon M1..M4 & Intel)
+
+**Version 3.2.0** — [Primary Release Page](https://github.com/oscarlosu-lab/USBAnywhere-Server/releases/tag/v3.2.0) | [Documentation Guide](https://github.com/oscarlosu-lab/USBAnywhere-Server/blob/main/docs/USAGE_MACOS_EN.md)
+
+| Package | Platform | Format | Download / Installation |
+|---|---|---|---|
+| 1-Click Automated Setup | macOS 13+ (Ventura, Sonoma, Sequoia) | Shell Script | `curl -fsSL https://raw.githubusercontent.com/oscarlosu-lab/USBAnywhere-Server/main/scripts/install-server-mac.sh \| sudo bash` |
+| Native Universal Binary | macOS 13+ (Apple Silicon & Intel) | Binary | [usbanywhere-server-mac](https://github.com/oscarlosu-lab/USBAnywhere-Server/releases/download/v3.2.0/usbanywhere-server-mac) |
+| Release Tarball Bundle | macOS 13+ (Universal) | TAR.GZ | [USBAnywhere-Server-macOS-v3.2.0.tar.gz](https://github.com/oscarlosu-lab/USBAnywhere-Server/releases/download/v3.2.0/USBAnywhere-Server-macOS-v3.2.0.tar.gz) |
+| Release ZIP Archive | macOS 13+ (Universal) | ZIP | [USBAnywhere-Server-macOS-v3.2.0.zip](https://github.com/oscarlosu-lab/USBAnywhere-Server/releases/download/v3.2.0/USBAnywhere-Server-macOS-v3.2.0.zip) |
 
 ---
 
@@ -74,6 +88,7 @@ sha256sum -c SHA256SUMS.txt
 
 - **Windows Packages**: Binaries and installers are built directly from open-source repositories via automated workflows. Windows Defender SmartScreen may display an unknown publisher notice until developer certificates are acquired.
 - **Android Packages**: APK builds are signed with the project release keystore and support direct sideloading. Enable *Install Unknown Apps* in Android Settings if prompted during manual installation.
+- **macOS Packages**: Native Swift Universal binaries with IOKit device bridge, LaunchDaemon system persistence, and Menu Bar Extra support.
 
 ---
 
